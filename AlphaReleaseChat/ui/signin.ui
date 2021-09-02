@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogSignIn</class>
+ <widget class="QDialog" name="DialogSignIn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>645</width>
+    <height>185</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Прошу, входите</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(56, 37, 0); color: White;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;Вход&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ffffff;&quot;&gt;Пожалуйста, введитё своё имя(ник), или выберите из предложенных &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBoxNick">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(83, 55, 0); color: White</string>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frameButtons">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButtonSignIn">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {background-color: rgb(107, 71, 0);color:White;border-style: outset;border-width: 2px;border-radius: 15px;border-color: rgb(107, 71, 0);padding: 4px;}
+QPushButton:pressed {background-color: #382500;color: White;border-style: outset;border-width: 2px;border-radius: 15px;border-color: #241800;padding: 4px;}</string>
+        </property>
+        <property name="text">
+         <string>Войти</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonExit">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {background-color: rgb(107, 71, 0);color:White;border-style: outset;border-width: 2px;border-radius: 15px;border-color: rgb(107, 71, 0);padding: 4px;}
+QPushButton:pressed {background-color: #382500;color: White;border-style: outset;border-width: 2px;border-radius: 15px;border-color: #241800;padding: 4px;}</string>
+        </property>
+        <property name="text">
+         <string>Закрыть</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
