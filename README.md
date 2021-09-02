@@ -34,4 +34,4 @@
 ![IP и порт со стороны клиента](screenshots/iphostclient.PNG)
 
 ---
-<img src="screenshots/logo.PNG">
+![](screenshots/logo.PNG)
