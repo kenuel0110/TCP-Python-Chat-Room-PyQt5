@@ -1,6 +1,0 @@
-PyQt5
-Socket
-plyer							
-pyglet
-os 							
-datetime						
