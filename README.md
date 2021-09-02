@@ -34,4 +34,4 @@
 ![IP и порт со стороны клиента](screenshots/iphostclient.PNG)
 
 ---
-![](screenshots/logo.PNG)
+![FOX](screenshots/logo.PNG)
