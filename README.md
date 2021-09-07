@@ -1,7 +1,11 @@
 # TCP Чат комната на Python
 ---
-![Привью](screenshots/firststart.gif)
+
+<p align="center">
+<img src="screenshots/firststart.gif"/></p>
+
 ***
+
 Это достаточно простая tcp чат комната с графическим интерфейсом (PyQt5), созданная на python, использует в основе модуль socket.
 
 Так же реализовано:
@@ -11,27 +15,55 @@
    * Уведомления о сообщениях
 
 ---
-![Главное окно](screenshots/faststart.PNG)
-![Окно настроек](screenshots/settings.PNG)
-![Изменение профиля](screenshots/rename.PNG)
-![Настройки соединения](screenshots/connect.PNG)
-![История сообщений](screenshots/storyofcorrespondence.PNG)
+  
+|![Окно настроек](screenshots/faststart.PNG)|
+|:--:| 
+| *Главное окно* |
+  
+  
+|![Окно настроек](screenshots/settings.PNG)|
+|:--:| 
+| *Окно настроек* |
+  
+  
+|![Изменение профиля](screenshots/rename.PNG)|
+|:--:| 
+| *Изменение профиля* |
+  
+  
+|![Настройки соединения](screenshots/connect.PNG)|
+|:--:| 
+| *Настройки соединения* |
+  
+  
+|![История сообщений](screenshots/storyofcorrespondence.PNG)|
+|:--:| 
+| *История сообщений* |
+  
 
 ***
+
 Хочу отметить, что программа ещё нуждается в доработке, например, могут быть проблемы с отображением при разрешении отличным от 1366 на 768, но в остальном работает вполне не плохо
 
 ---
-![Пример общения](screenshots/correspondence.PNG)
+<p align="center">
+<img src="screenshots/correspondence.PNG"/></p>
+
 ***
-##Запуск
+
+# Запуск
 Запуск производиться при помощи любого компилятора, поддерживающего python. Для начала, нужно запустить server.py, по умолчанию он настроен на локальные значения, но их легко можно изменить
 
-![IP и порт](screenshots/iphost.PNG)
+|![IP и порт](screenshots/iphost.PNG)|
+|:--:| 
+| *Указание ip, порта для сервера* |
 
 Затем запускается main.py
 (По умолчанию клиент подключаеться к локальным значениям, но позволяет их изменить при неудаче)
 
-![IP и порт со стороны клиента](screenshots/iphostclient.PNG)
+|![IP и порт со стороны клиента](screenshots/iphostclient.PNG)|
+|:--:| 
+| *Указание ip, порта для клиента* |
 
 ---
-![FOX](screenshots/logo.png)
+<p align="center"><img src="screenshots/logo.png"/></p>
