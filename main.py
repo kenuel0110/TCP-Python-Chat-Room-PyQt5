@@ -526,8 +526,7 @@ class Ui_MainWindow(object):                                    #основно�
                 
                 if lenghtmessage <= 468:    #и длинна меньше или равна 468 символам
 
-                    style = "<html><head><style>td {padding-left: 10px; padding-right: 10px;} .message {padding-left: 20px; padding-right: 10px; padding-bottom: 9px}</style>" #стиль таблицы для отображения сообщения
-                    message = f"{style}<head/><body><table width = '100%' cellpadding='3' cellspacing='0'><tr><td valign='top' bgcolor='#5c4200' width = 86%><b><font color = #bda980>{nickName}</b></font></td><td valign='top' bgcolor='#5c4200' width = 14% align = 'right'><font color = #bda980 size = 5px>{time}</td></font><tr><td class = 'message' valign='top' bgcolor='#5c4200' width = 100% colspan= '2'>{messageText}</td></tr></table><br></body></html>" # шаблон для сообщения
+                    message = f"<table width='100%' cellpadding='3' cellspacing='0'><tr><td valign='top' bgcolor='#5c4200' width = 86%><b><font color = #bda980>{nickName}</b></font></td><td valign='top' bgcolor='#5c4200' width = 14% align = 'right'><font color = #bda980 size = 5px>{time}</td></font><tr><td class = 'message' valign='top' bgcolor='#5c4200' width = 100% colspan= '2'>{messageText}</td></tr></table><br>" # шаблон для сообщения
 
                     client.send(message.encode('utf-8'))    #отправка сообщения
                 else:
